@@ -11,6 +11,10 @@ Windows may show "Windows protected your PC" until the installer is code-signed:
 **Mac (Apple silicon)** — download `Brand-Studio-<version>-arm64.dmg`, open it and drag Brand Studio to Applications.
 Until the app is notarized, open it the first time with **right-click → Open**.
 
+**Linux (x64)** — download either package from [Releases](../../releases/latest):
+- **Debian / Ubuntu (`.deb`):** `Brand-Studio-<version>-amd64.deb` — install with `sudo apt install ./Brand-Studio-<version>-amd64.deb`.
+- **AppImage (`.AppImage`):** `Brand-Studio-<version>-x86_64.AppImage` — make executable (`chmod +x Brand-Studio-<version>-x86_64.AppImage`) and run.
+
 ## First run
 
 Brand Studio checks your computer and suggests the free local engines it can use for AI copy and images.
